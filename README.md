@@ -1,1 +1,1 @@
-# sharepoint-solutions-hub
+# SharePoint Solution Hub
