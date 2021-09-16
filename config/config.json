@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "quick-create-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quickCreate/QuickCreateWebPart.js",
+          "manifest": "./src/webparts/quickCreate/QuickCreateWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "QuickCreateWebPartStrings": "lib/webparts/quickCreate/loc/{locale}.js"
+  }
+}
