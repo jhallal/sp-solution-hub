@@ -18,9 +18,9 @@
     "group": { "default": "Other" },
     "title": { "default": "QuickCreate" },
     "description": { "default": "Quick create new items (shortcuts)" },
-    "officeFabricIconFontName": "Page",
+    "officeFabricIconFontName": "Sunny",
     "properties": {
-      "description": "QuickCreate"
+      "description": "Quick Create"
     }
   }]
 }

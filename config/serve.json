@@ -6,5 +6,29 @@
   "api": {
     "port": 5432,
     "entryPath": "node_modules/@microsoft/sp-webpart-workbench/lib/api/"
+  },
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://sharepointdemo21.sharepoint.com/sites/SPPracticeLaw/SitePages/Dashboard.aspx",
+      "customActions": {
+        "3257528c-6fe3-4990-935e-69067185be5a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "coreLayout": {
+      "pageUrl": "https://sharepointdemo21.sharepoint.com/sites/SPPracticeLaw/SitePages/Dashboard.aspx",
+      "customActions": {
+        "3257528c-6fe3-4990-935e-69067185be5a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
   }
 }

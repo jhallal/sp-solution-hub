@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/quickCreate/QuickCreateWebPart.manifest.json"
         }
       ]
+    },
+    "core-layout-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/coreLayout/CoreLayoutApplicationCustomizer.js",
+          "manifest": "./src/extensions/coreLayout/CoreLayoutApplicationCustomizer.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "QuickCreateWebPartStrings": "lib/webparts/quickCreate/loc/{locale}.js"
+    "QuickCreateWebPartStrings": "lib/webparts/quickCreate/loc/{locale}.js",
+    "CoreLayoutApplicationCustomizerStrings": "lib/extensions/coreLayout/loc/{locale}.js"
   }
 }
